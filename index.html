@@ -6,14 +6,25 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Juan Zurita</title>
 
+    <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/main.css">
     <link rel="icon" href="assets/icon.png" type="image/png">
+
+    <meta name="author" content="Juan Zurita">
+    <meta name="description" content="This is my Web page. This page hosts my design and a summary of my projects and achievements">
+
+    <meta property="og:title" content="Juan Zurita">
+    <meta property="og:description" content="Juan Zurita's portfolio">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="assets/icon-96.png">
+    <meta property="og:url" content="https://juan-zv.github.io/portfolio/">
+
 </head>
 
 <body>
     <header>
         <nav>
-            <div class="logo">Juan Zurita</div>
+            <div class="logo"><img src="assets/icon-96.png" alt="icon"></div>
             <ul class="nav-links">
                 <li><a href="#about">About</a></li>
                 <li><a href="#projects">Projects</a></li>
@@ -27,22 +38,27 @@
         </nav>
     </header>
     <main>
-        <main>
-            <section class="hero-section">
-                <h1>Juan Zurita</h1>
-            </section>
-            <section id="about" class="about-section">
-                <h2>About Me</h2>
-                <div class="bio">
-                    <img src="profile-pic.jpg" alt="Juan Zurita's Profile Picture">
-                    <p>Short bio goes here...</p>
-                </div>
-            </section>
-            <section id="projects" class="projects-section">
-                <h2>Projects</h2>
-                <!-- Project Cards will go here -->
-            </section>
-        </main>
+        <section class="hero-section">
+            <h1 id="my-name" class="roboto">Juan Zurita.</h1>
+        </section>
+        <section id="about" class="about-section">
+            <h2>About Me</h2>
+            <div class="bio">
+                <img src="assets/pofile-pic.jpg" alt="Juan Zurita's Profile Picture">
+                <p>
+                    I love In-N-Out. This is the first thing I want everyone to know about me. My name is Juan Zurita. 
+                    I was born in Boolivia but I have been living in Spain since I was 4 years old. I served a mission for the
+                    Church of Jesus christ of Latter-Day Saints in Bolivia Santa Cruz and I loved it. I am passionate about technology,
+                    more specifically AI and Web Design. I am pursuing a bachelors in Computer Science and hope to learn as much as I can
+                    about anything in order to help others and be prepared for every situation I will face. I made this page to share all
+                    that I learn and work on throughout this path. Feel free to contact me!
+                </p>
+            </div>
+        </section>
+        <section id="projects" class="projects-section">
+            <h2>Projects</h2>
+            <!-- Project Cards will go here -->
+        </section>
     </main>
     <footer>
         <p>&copy; <span id="year"></span> Juan Zurita</p>
